@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="rendering">
+      <UniqueIdentifier>{f831bf03-a5c6-4775-bd34-723c8c429b72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rendering\window">
+      <UniqueIdentifier>{7502bfdc-2452-4555-b3b2-802e97e37d62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rendering\glad">
+      <UniqueIdentifier>{07f04617-1d0a-4c0c-8100-cab81d8479fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rendering\constants">
+      <UniqueIdentifier>{3e3520f6-e9f9-40bd-93de-b319de01a061}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rendering\mesh">
+      <UniqueIdentifier>{2d41c071-fff8-427b-91fd-843c36392bd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rendering\shader">
+      <UniqueIdentifier>{d53ed64d-c593-4437-afab-a408970cd22c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rendering\camera">
+      <UniqueIdentifier>{d78204d6-bbf8-4a0c-970c-67e43f8ed067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{546ef1e4-e447-47ce-a07b-144b4fd34e6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\scene">
+      <UniqueIdentifier>{92c90394-d309-4509-871b-a7ffea6017be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\engine">
+      <UniqueIdentifier>{474fa32b-52ea-4321-acd2-2690e7bc681e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility">
+      <UniqueIdentifier>{5ab9face-6923-461c-ba29-87fe9b70e067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility\stb_image">
+      <UniqueIdentifier>{1304202c-969e-4d4e-a3e2-a436f0b548b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility\resource_loading">
+      <UniqueIdentifier>{ccb92494-a029-4f16-8b72-8b7793c8e53d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\glad\glad.h">
+      <Filter>rendering\glad</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\constants\gl_constants.h">
+      <Filter>rendering\constants</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\window\window.h">
+      <Filter>rendering\window</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\mesh\mesh.h">
+      <Filter>rendering\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\mesh\vertex.h">
+      <Filter>rendering\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\mesh\texture.h">
+      <Filter>rendering\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\mesh\texture_type.h">
+      <Filter>rendering\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\shader\shader.h">
+      <Filter>rendering\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\camera\camera.h">
+      <Filter>rendering\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="core\scene\scene_object.h">
+      <Filter>core\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="core\scene\scene_component.h">
+      <Filter>core\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="core\engine\ayo_engine.h">
+      <Filter>core\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\includes\stb_image\stb_image.h">
+      <Filter>utility\stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\mesh\model.h">
+      <Filter>rendering\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\resource_loading\model_loader.h">
+      <Filter>utility\resource_loading</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\resource_loading\texture_loader.h">
+      <Filter>utility\resource_loading</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\glad\glad.c">
+      <Filter>rendering\glad</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\window\window.cpp">
+      <Filter>rendering\window</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\mesh\texture_type.cpp">
+      <Filter>rendering\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\shader\shader.cpp">
+      <Filter>rendering\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\mesh\mesh.cpp">
+      <Filter>rendering\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\camera\camera.cpp">
+      <Filter>rendering\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="core\scene\scene_object.cpp">
+      <Filter>core\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="core\scene\scene_component.cpp">
+      <Filter>core\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="core\engine\ayo_engine.cpp">
+      <Filter>core\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\stb_image\stb_image_impl.cpp">
+      <Filter>utility\stb_image</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\mesh\model.cpp">
+      <Filter>rendering\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\resource_loading\model_loader.cpp">
+      <Filter>utility\resource_loading</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\resource_loading\texture_loader.cpp">
+      <Filter>utility\resource_loading</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
